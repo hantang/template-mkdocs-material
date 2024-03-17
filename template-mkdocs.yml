@@ -14,11 +14,7 @@ site_description: ""
 # Theme
 theme:
   name: material
-
-# Theme
-theme:
-  name: material
-  custom_dir: overrides
+  # custom_dir: overrides
   # language: "zh"
   # favicon: assets/favicon.ico
   icon:
@@ -146,8 +142,6 @@ markdown_extensions:
 
 plugins:
   - search
-  # - minify:
-  #     minify_html: true
   # - search:
   #     lang:
   #       - en
@@ -155,6 +149,8 @@ plugins:
   #     separator: '[\s\-,:!=\[\]()"/\u200b]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
   # - git-revision-date-localized:
   #     enable_creation_date: true
+  # - minify:
+  #     minify_html: true
   # - include-markdown
   # - mermaid2
   # - table-reader
@@ -195,6 +191,31 @@ plugins:
   #     cards_layout: default
   #     cards_layout_options:
   #       font_family: Noto Sans SC
+  # - i18n:
+  #     docs_structure: folder # suffix
+  #     fallback_to_default: true
+  #     reconfigure_material: true
+  #     reconfigure_search: true
+  #     languages:
+  #       - locale: en
+  #         default: true
+  #         name: English
+  #         build: true
+  #       - locale: zh
+  #         name: 简体中文
+  #         build: true
+  #         site_name: 模板
+  #         nav_translations:
+  #           Home: 首页
+  #           License: 许可证
+  #         theme:
+  #           palette:
+  #             - media: "(prefers-color-scheme: light)"
+  #               scheme: default
+  #               primary: deep orange
+  #             - media: "(prefers-color-scheme: dark)"
+  #               scheme: slate
+  #               primary: black
 
 # exclude_docs: |
 #   /drafts/
