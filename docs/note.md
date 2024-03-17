@@ -1,5 +1,11 @@
 # Note
 
+??? abstract "TOC"
+
+    - [Note](#note)
+      - [Plugins](#plugins)
+      - [Front matter](#front-matter)
+
 ## Plugins
 
 ```plaintext

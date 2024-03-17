@@ -73,6 +73,7 @@ markdown_extensions:
   - def_list
   - footnotes
   - md_in_html
+  - wikilinks
   - toc:
       permalink: true
       # toc_depth: 4
@@ -222,6 +223,7 @@ plugins:
 
 nav:
   - Home: index.md
+  - Note: note.md
   # - About:
   #     - about/index.md
   #     - ...
