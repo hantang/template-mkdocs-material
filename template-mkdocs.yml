@@ -14,7 +14,7 @@ site_description: ""
 # Theme
 theme:
   name: material
-  # custom_dir: overrides
+  custom_dir: overrides
   # language: "zh"
   # favicon: assets/favicon.ico
   icon:
@@ -118,17 +118,19 @@ markdown_extensions:
   - mdx_truly_sane_lists
   - tables
 
+
 # extra_javascript:
-#   - assets/js/katex.js
 #   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js
 #   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
-#   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
-#   - https://unpkg.com/tablesort@5.3.0/dist/sorts/tablesort.number.min.js
-#   - https://unpkg.com/tablesort@5.3.0/dist/sorts/tablesort.date.min.js
-#   - assets/js/tablesort.js
+#   - assets/js/katex.js
+#   - https://code.jquery.com/jquery-3.7.1.min.js
+#   - https://cdn.datatables.net/2.0.2/js/dataTables.min.js
+#   - https://cdn.datatables.net/plug-ins/2.0.2/i18n/zh.json
+#   - assets/js/datatables.js
 
 # extra_css:
 #   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
+#   - https://cdn.datatables.net/2.0.2/css/dataTables.dataTables.min.css
 #   - assets/css/extra.css
 
 # extra:
@@ -154,7 +156,7 @@ plugins:
   #     minify_html: true
   # - include-markdown
   # - mermaid2
-  # - table-reader
+  - table-reader
   # - roamlinks
   # - awesome-pages:
   #     collapse_single_pages: true
@@ -224,6 +226,7 @@ plugins:
 nav:
   - Home: index.md
   - Note: note.md
+  - Table: table.md
   # - About:
   #     - about/index.md
   #     - ...
